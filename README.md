@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+# Marble Maze Motion
 
-## Project info
+A 3D maze game built with TypeScript and Three.js. Roll your marble through a twisting maze by controlling the tilt of the ground or using keyboard controls. Made by your very own hehehehe. 
 
-**URL**: https://lovable.dev/projects/68a41761-fd9b-4e29-a577-d92aee4cec07
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- **Physics-based movement**: Realistic ball rolling powered by cannon-es physics  
+- **Dynamic 3D maze**: Procedurally-generated or handcrafted maze layouts  
+- **Lighting & shadows**: Ambient and directional lights for depth and immersion  
+- **Responsive controls**: Tilt the maze with keyboard or mouse/gamepad input  
+- **Modular architecture**: Built in TypeScript with clean, extensible classes  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/68a41761-fd9b-4e29-a577-d92aee4cec07) and start prompting.
+## 💻 Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### 1. Clone this repository  
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+git clone https://github.com/sire-magnusss/marble-maze-motion.git
+cd marble-maze-motion
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 2. Install dependencies
 
-Follow these steps:
+npm install
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 3. Run in development mode
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+This will start a local Vite server and open http://localhost:3000.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🎮 Game Controls
 
-**Use GitHub Codespaces**
+| Input Method      | Action                                  |
+| ----------------- | --------------------------------------- |
+| Arrow keys / WASD | Tilt the maze (roll the ball)           |
+| Mouse drag        | Click & drag to tilt the maze (desktop) |
+| Touch & drag      | Tilt the maze (mobile/tablet)           |
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+"pretty basic huh?? hehehe."
 
-## What technologies are used for this project?
+## ⚙️ Configuration (NOT FOR KIDS UNDER 18yrs)
+"For my developer goons hehehe"
 
-This project is built with:
+nvm dont edit my code.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/68a41761-fd9b-4e29-a577-d92aee4cec07) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
